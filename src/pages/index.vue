@@ -36,9 +36,10 @@
 <script>
 import TreeNode from '@/components/TreeNode.vue'
 import Nodes from '@/components/Nodes.vue'
+import IconBase from '@/components/common/IconBase.vue'
 export default {
   name: 'indexLayout',
-  components: { TreeNode, Nodes },
+  components: { TreeNode, Nodes, IconBase },
   data() {
     return {
       searchNode: '',
